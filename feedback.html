@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        input[type=submit] {
+            background-color: #0082e6;
+            border: none;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+        <label class="logo">
+            <span>O</span>
+            <span>P</span>
+            <span>T</span>
+            <span>I</span>
+            <span>T</span>
+            <span>E</span>
+            <span>C</span>
+            <span>H</span>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="feedback.html">Rate Us</a></li>
+        </ul>
+    </nav>
+    <br/><br/>
+    <h1>Give Us Some Feedback On Our Service:</h1>
+    <form style="text-align: center;">
+        <h2>What was the experience of using this website?</h2>
+        <label for="Great">Great</label>
+        <input type="radio" name="answer" id="great">
+        <label for="Okay">Okay</label>
+        <input type="radio" name="answer" id="okay" />
+        <label for="Terrible">Terrible</label>
+        <input type="radio" name="answer" id="terrible" />
+        <br/><br/>
+        <h2>Was the ordering process difficult?</h2>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="answer" id="yes" />
+        <label for="No">No</label>
+        <input type="radio" name="answer" id="no" />
+        <br/><br/>
+        <h2>Rate your experience out of 10:</h2>
+        <label for="10">10</label>
+        <input type="radio" name="answer" id="10" />
+        <br/>
+        <label for="9-7">9-7</label>
+        <input type="radio" name="answer" id="9-7" />
+        <br/>
+        <label for="6-5">6-5</label>
+        <input type="radio" name="answer" id="6-5" />
+        <br/>
+        <label for="less than 5"> less than 5 </label>
+        <input type="radio" name="answer" id="less than 5" />
+        <br/><br/>
+        <label class="suggestion" for="suggestion">Any Suggestions to improve your experience?</label>
+        <input type="text" />
+        <br/><br/>
+        <input type="submit" value="Submit">
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
